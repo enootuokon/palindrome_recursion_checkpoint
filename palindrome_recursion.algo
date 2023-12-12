@@ -10,5 +10,5 @@ BEGIN
             RETURN FALSE
         END_IF
     END_IF
-    RETURN palindrome(word[1:-1]);
+    RETURN palindrome(word);
 END
